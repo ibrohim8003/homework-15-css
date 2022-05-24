@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.box1{
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./img/tAwoa70ukWGJf9dcri5Dxw.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box2{
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./img/kartinki-mersedes-mercedes-9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box3{
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./img/bmw-m2-f87-iml-monterey-89.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box4{
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./img/kartinki-mashiny-audi-33.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box5{
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./img/82972325e7de996053bdbe6c78cf69ed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1000px) {
+    .container{
+        width: 1000px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        width: 800px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        width: 600px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 400px) {
+    .container{
+        width: 400px;
+        flex-wrap: wrap;
+    }
+}
